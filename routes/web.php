@@ -28,3 +28,5 @@ Route::get('/', function () {
 
 //后台首页点难哦
 Route::get('/admisd',"Admin\AdminController@inf");
+
+echo Eks;
