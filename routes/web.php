@@ -15,4 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/admin',"Admin\AdminController");
+
+Route::get('/', function () {
+    return view('wel');
+});
+
+
