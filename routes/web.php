@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 
 Route::get('/admin',"Admin\AdminController");
-
+Route::get('/admin',"Admin\AdminCompanyController");
 Route::get('/', function () {
     return view('wel');
 });
